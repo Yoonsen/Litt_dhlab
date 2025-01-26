@@ -1,0 +1,34 @@
+Let's update the prompt structure for (book_id, char_id, main_label, sub_label, evidence):
+
+KARAKTERLISTE:
+[Liste over ID:navn]
+
+ANALYSEOMRÅDER:
+
+1. PERSONLIGHETSTREKK (trait)
+- open/closed (kultur, ideer)
+- conscientious/chaotic (orden, ansvar)
+- extrovert/introvert (sosial)
+- agreeable/harsh (empati)
+- stable/unstable (følelser)
+
+2. KONFLIKTER (conflict)
+- personal
+- social
+- political
+- war_direct
+- war_observer
+
+3. POSISJON (position)
+- status (high/low)
+- geography (urban/rural)
+- profession
+- ideology
+
+4. INTERAKSJONER (interaction)
+- alliance_[ID]
+- conflict_[ID]
+- neutral_[ID]
+
+OUTPUT:
+(bok_id, karakter_id, hovedkategori, underkategori, evidens)
